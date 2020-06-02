@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\cmds",
+    "\\core",
+    "\\core\\__pycache__"
   ],
   "SelectedNode": "\\MeBotTW.py",
   "PreviewInSolutionExplorer": false
