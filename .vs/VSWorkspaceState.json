@@ -3,8 +3,9 @@
     "",
     "\\cmds",
     "\\core",
-    "\\core\\__pycache__"
+    "\\core\\__pycache__",
+    "\\pic"
   ],
-  "SelectedNode": "\\MeBotTW.py",
+  "SelectedNode": "\\cmds\\main.py",
   "PreviewInSolutionExplorer": false
 }

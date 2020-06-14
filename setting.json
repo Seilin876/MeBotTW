@@ -1,7 +1,25 @@
 {
-  "TOKEN": "NzE0ODM4NTc4NTg4Mjg3MTE3.XtYQvg.THplkImhItas9bXps2kUvnLQzl0",
-  "member-list": "716689928553103380",
-  "pic": ["C:\\Users\\a0926\\Source\\Repos\\MeBotTW\\pic\\X.png", 
-          "C:\\Users\\a0926\\Source\\Repos\\MeBotTW\\pic\\1.jpg"],
-  "URL_pic": [ "https://1.bp.blogspot.com/-rvS9pAydsr8/Xs4GcfsKjqI/AAAAAAAA75A/MdydCu9CK4AGGXbNx-jzh3y6TJsiHB6bQCLcBGAsYHQ/s1600/e.gif"]
+    "TOKEN": "",
+    "member-list": "716689928553103380",
+    "time": "2208",
+  "em": [ "em", "information" ],
+    "pic": [
+      "C:\\Users\\a0926\\Source\\Repos\\MeBotTW\\pic\\2.jpg",
+        "C:\\Users\\a0926\\Source\\Repos\\MeBotTW\\pic\\1.jpg"
+    ],
+  "URL_pic": [
+    "https://1.bp.blogspot.com/-rvS9pAydsr8/Xs4GcfsKjqI/AAAAAAAA75A/MdydCu9CK4AGGXbNx-jzh3y6TJsiHB6bQCLcBGAsYHQ/s1600/e.gif",
+    "https://i.ytimg.com/vi/4CtD7FunVmk/hqdefault.jpg",
+    "https://miro.medium.com/max/970/1*ZsQoOXgnSpaEDlUEVOoKgA.png"
+  ],
+    "keyword": [
+        "hi",
+        "hey",
+        "0.0",
+        "hello",
+        "STFU",
+        "Hello",
+        "Hi",
+        "Hey"
+    ]
 }

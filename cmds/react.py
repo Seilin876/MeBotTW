@@ -18,9 +18,16 @@ class React(Cog_Extension):
         await ctx.send(file= pic)
 
     @commands.command()
-    async def 測(self, ctx):
+    async def web(self, ctx):
         random_pic = random.choice(jdata['URL_pic'])
         await ctx.send(random_pic)
+
+    @commands.command()
+    async def toss(self, ctx, msg):
+        max_num = int(msg)
+        random_num = random.randint(1,max_num)
+        await ctx.send(random_num)
+        
 
 def setup(bot):
     bot.add_cog(React(bot))

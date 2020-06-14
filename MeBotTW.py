@@ -12,18 +12,7 @@ bot = commands.Bot(command_prefix='!')
 @bot.event
 async def on_ready():
     print(">> Bot is online <<")
-
-@bot.event
-async def on_member_join(member):
-    print(f'{member} join')
-    channel = bot.get_channel(int(jdata['member-list']))
-    await channel.send(f'{member} join ')
-
-@bot.event
-async def on_member_remove(member):
-    print(f'{member} leave')
-    channel = bot.get_channel(int(jdata['member-list']))
-    await channel.send(f'{member} leave  ')
+    
 
 @bot.command()
 async def load(ctx,extension):
@@ -39,7 +28,6 @@ async def unload(ctx,extension):
 async def reload(ctx,extension):
     bot.reload_extension(f'cmds.{extension}')
     await ctx.send(f'Re-loaded {extension} done.')
-
 
 
 for filename in os.listdir('./cmds'):
